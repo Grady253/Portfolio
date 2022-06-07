@@ -1,0 +1,51 @@
+/* Gives the background color, and font of entire page. */
+*{
+    background-color:lightgrey;
+    font-size: 20px;
+}
+
+/* Gives the body of the webpage a font */
+body{
+    font-family: "COURIER NEW";
+}
+
+/* directs the content inside the header with centered text, the size of the text */
+header{
+    text-align: center;
+    font-size: 20px;
+ 
+}
+
+/* this allows me to add flavor to the navigation bar on top of my HTML page  */
+nav{
+    display: flex;
+    justify-content:flex-start;
+    background-color: blue;
+}
+nav ul{
+    text-align: center;
+    color: gray;
+   
+}
+nav li{
+    display: inline;
+    
+}
+
+nav a{
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+  
+}
+
+h1{
+   font-size: 75px;
+   font-family: cursive;
+   border-bottom: solid black 9px;
+   text-align: center;
+   
+}
+#side{
+    text-align: center;
+}
