@@ -22,7 +22,8 @@ header{
 nav{ 
     display: flex;
     justify-content:flex-start;
-    background-color: black; 
+    background-color: black;
+    padding:15px ;
 } 
 nav ul{
     text-align: center;
@@ -48,16 +49,15 @@ h1{
 }
 
 .float_left{
-    display: flex;
     float: left;
-    padding-top: 130px;
-    flex-direction: column;
+    padding-top: 90px;
 }
 
-#personal{
+#personal, #my_work, #info{
     width: 80%;
     border: 10px solid blue;
     padding: 20px;
+    margin: 15px;
     float: right;
     background-color: antiquewhite;
 }
