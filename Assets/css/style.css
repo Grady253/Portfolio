@@ -20,44 +20,64 @@ header{
 
 /* this allows me to add flavor to the navigation bar on top of my HTML page  */
 nav{ 
-    display: flex;
+    display: block;
     justify-content:flex-start;
     background-color: black;
     padding:15px ;
 } 
+
 nav ul{
     text-align: center;
     color: gray;
     padding-left: -20px; 
 }
+
 nav li{
     display: inline; 
 }
 
 nav a{
+    padding:20px;
     color: antiquewhite;
-    font-size: 17px bold;
+    font-size: 15px bold;
     text-decoration: none;
 }
 
+a:hover{
+    color: gray;
+}
+
+
+#name{
+    color: antiquewhite;
+} 
+/* This is editing the "welcome" in the top of the page */
 h1{
    font-size: 75px;
    font-family: cursive;
-   border-bottom: solid black 9px;
+   border-bottom: solid 9px;
    text-align: center;
    margin: -10px;
 }
 
-.float_left{
-    float: left;
-    padding-top: 90px;
+img{
+    height: 300px;
+    width: 250px;
 }
 
-#personal, #my_work, #info{
-    width: 80%;
+.float_left{
+    float: center;
+} 
+
+#personal, #myWork, #info{
+    width: 100%;
     border: 10px solid blue;
     padding: 20px;
-    margin: 15px;
+    margin: 0;
     float: right;
     background-color: antiquewhite;
 }
+
+/* #personal, #myWork, #info{
+    display: none;
+} */
