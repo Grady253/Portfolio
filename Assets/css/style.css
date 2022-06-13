@@ -5,20 +5,20 @@
     margin: 0;
 }
 
-/* Gives the body of the webpage a font */
+/* Gives the body of the webpage a font. */
 body{
     font-family: "COURIER NEW";
     background-color:lightgrey;
     font-size: 20px;
 }
 
-/* directs the content inside the header with centered text, the size of the text */
+/* directs the content inside the header with centered text. */
 header{
     text-align: center;
     padding-bottom: 20px;
 }
 
-/* this allows me to add flavor to the navigation bar on top of my HTML page  */
+/* this allows me to add flavor to the navigation bar on top of my HTML page.  */
 nav{ 
     display: block;
     justify-content:flex-start;
@@ -51,7 +51,8 @@ a:hover{
 #name{
     color: antiquewhite;
 } 
-/* This is editing the "welcome" in the top of the page */
+
+/* This is editing the "welcome" in the top of the page. */
 h1{
    font-size: 75px;
    font-family: cursive;
@@ -60,6 +61,7 @@ h1{
    margin: -10px;
 }
 
+/* Determining the size of the photo added. */
 img{
     height: 300px;
     width: 250px;
@@ -69,6 +71,7 @@ img{
     float: center;
 } 
 
+/* This edits each ID box. */
 #personal, #myWork, #info{
     width: 100%;
     border: 10px solid blue;
@@ -77,7 +80,3 @@ img{
     float: right;
     background-color: antiquewhite;
 }
-
-/* #personal, #myWork, #info{
-    display: none;
-} */
